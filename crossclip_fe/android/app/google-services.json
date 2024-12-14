@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722736563548",
+    "project_id": "crossclip-c93e2",
+    "storage_bucket": "crossclip-c93e2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722736563548:android:4c83176bdc9dc359c32d99",
+        "android_client_info": {
+          "package_name": "com.example.crosslip_fe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAC_EFjrGAxE1pNmDuaLjaTjUuseFZcI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
