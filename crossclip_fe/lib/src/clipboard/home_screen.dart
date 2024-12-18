@@ -11,11 +11,16 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        child: Center(
-          child: Text('CrossClip'),
+        appBar: AppBar(
+          title: const Text("Divyansh's Space"),
+          centerTitle: false,
+          leading: IconButton(
+              padding: EdgeInsets.zero,
+              onPressed: () {},
+              icon: const Icon(Icons.menu)),
         ),
-      ),
-    );
+        body: Column(
+          children: [],
+        ));
   }
 }
