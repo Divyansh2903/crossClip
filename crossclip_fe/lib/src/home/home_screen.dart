@@ -1,3 +1,5 @@
+import 'package:crosslip_fe/src/common/constants/dev_consts.dart';
+import 'package:crosslip_fe/src/common/widgets/space_chip.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -19,8 +21,14 @@ class _HomeScreenState extends State<HomeScreen> {
               onPressed: () {},
               icon: const Icon(Icons.menu)),
         ),
-        body: Column(
-          children: [],
+        body: const Column(
+          children: [
+            SpaceChip(
+              chipText: "temp-space",
+              chipColor: DevConsts.spaceChipColor,
+              chipEmoji: "🏙️",
+            ),
+          ],
         ));
   }
 }
